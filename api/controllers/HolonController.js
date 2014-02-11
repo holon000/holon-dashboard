@@ -15,18 +15,6 @@
  * @docs        :: http://sailsjs.org/#!documentation/controllers
  */
 
-function checkNested(list, key, value) {
-  list.forEach(function(item) {
-    sails.log.verbose('Checking if', item, 'has', key, '=', value)
-    sails.log.verbose('***********************', item[key])
-    if (item[key] && item[key] == value) {
-      sails.log.verbose('Found', item[key], '!')
-      return true
-    }
-  })
-  return false
-}
-
 function isDefined(x) {
     var undefined;
     return x !== undefined;
