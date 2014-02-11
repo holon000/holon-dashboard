@@ -1,0 +1,23 @@
+<div>
+  <h1>All Holon status report</h1>
+  <% report.holons.forEach(function (holon) { %>
+    <h2><%= holon.location %></h2>
+    <ul>
+    <% holon.persons.forEach(function (person) { %>
+    <li><%= person.name %>
+      <dl>
+        <dt>Nationality</dt><dd><%= person.nationality %></dd>
+        <dt>Date of Arrival</dt><dd><%= person.arrivalDate %></dd>
+        <dt>Skills</dt><dd>
+          <ul>
+            <% person.skills.forEach(function (skill) { %>
+            <li><%= skill.skill %></li>
+            <% }) %>
+          </ul>
+        </dd>
+      </dl>
+    </li>
+    <% }) %>
+    </ul>
+  <% }) %>
+</div>
