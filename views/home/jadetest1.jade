@@ -1,38 +1,27 @@
+extends ../layout
 
-doctype html
-html(lang="en")
-  head
-      // STYLES
-      link(rel="stylesheet", href="/linker/styles/style.css")
-      // STYLES END
-      title= pageTitle
-  body
-      
-    h1 Switzerland
-    #container.col1 
-      p.
-        Welcome to
-        holon ground zero
+block content
+  h1 Switzerland
+  #container.col1 
+    p.
+      Welcome to
+      holon ground triple-zero
         
-  block content
   div.container.column1
     div.jumbotron
       h1= title
       p Welcome to #{title}
 
-  block content
   div.container.column2
     div.jumbotron
       h1= title
       p Welcome to #{title}
       
-  block content
   div.container.column3
     div.jumbotron
       h1= title
       p Welcome to #{title}
 
-  block content
   div.container.column4
     div.jumbotron
       h1= title

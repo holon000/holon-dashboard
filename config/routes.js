@@ -39,6 +39,7 @@ module.exports.routes = {
   '/jadetest': {
     view: 'home/jadetest1'
   },
+  '/dashboard': 'DashboardController.index'
 /*
 
   // Let's say you're building an email client, like Gmail
