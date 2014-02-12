@@ -31,7 +31,7 @@ module.exports.adapters = {
     host: 'ethereum.cd2nft5jxumq.us-west-2.rds.amazonaws.com',
     user: 'holondash'
     // define connection details in config/local.js
-  }
+  },
 
   // Twitter config
   twitter: {
