@@ -35,7 +35,10 @@ module.exports.routes = {
   '/': {
     view: 'home/index'
   },
-  '/allholons': 'HolonController.all'
+  '/allholons': 'HolonController.all',
+  '/jadetest': {
+    view: 'home/jadetest1'
+  },
 /*
 
   // Let's say you're building an email client, like Gmail
