@@ -32,4 +32,13 @@ module.exports.adapters = {
     user: 'holondash'
     // define connection details in config/local.js
   }
+
+  // Twitter config
+  twitter: {
+    module: 'sails-twitter',
+    consumerKey: '',
+    consumerSecret: '',
+    accessToken: '',
+    accessTokenSecret: ''
+  }
 };
