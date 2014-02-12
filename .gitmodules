@@ -1,3 +1,6 @@
 [submodule "api/adapters/sails-twitter"]
 	path = api/adapters/sails-twitter
 	url = git@github.com:balderdashy/sails-twitter.git
+[submodule "api/adapters/sails-github"]
+	path = api/adapters/sails-github
+	url = git@github.com:tgerring/sails-github.git
