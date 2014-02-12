@@ -4,8 +4,8 @@
 docReady( function() {
   var container = document.querySelector('.packery');
   var pckry = new Packery( container, {
-    columnWidth: 185,
-    rowHeight: 185
+    columnWidth: 30,
+    rowHeight: 30
   });
   var itemElems = pckry.getItemElements();
   // for each item element
