@@ -6,11 +6,16 @@
 
 body { font-family: sans-serif; }
 
-h4, .h4, h5, .h5, h6, .h6 {
-  margin:0;
+h1 {
+  font-weight:bold;
+  font-size:14px;
 }
 
 h1, .h1, h2, .h2, h3, .h3 {
+  margin:0;
+}
+
+h4, .h4, h5, .h5, h6, .h6 {
   margin:0;
 }
 
@@ -36,8 +41,9 @@ h1, .h1, h2, .h2, h3, .h3 {
   width: 50px;
   height: 50px;
   float: left;
-  background-color: rgba(39, 50, 63, 0.9);
+  background-color: rgba(39, 50, 63, 0.7);
   padding: 5px;
+  box-shadow: 2px 2px #222;
 }
 
 .item:hover {
@@ -45,14 +51,14 @@ h1, .h1, h2, .h2, h3, .h3 {
   cursor: move;
 }
 
-.item.w2 { width:  100px; }
-.item.h2 { height: 100px; }
-.item.h4 { height: 200px; }
-.item.w4 { width:  200px; }
-.item.h8 { height: 400px; }
-.item.w8 { width:  400px; }
-.item.h16 { height: 800px; }
-.item.w16 { width:  800px; }
+.item.w2 { width:  90px; }
+.item.h2 { height: 90px; }
+.item.h4 { height: 190px; }
+.item.w4 { width:  190px; }
+.item.h8 { height: 390px; }
+.item.w8 { width:  390px; }
+.item.h16 { height: 790px; }
+.item.w16 { width:  790px; }
 
 .item.is-dragging,
 .item.is-positioning-post-drag {
