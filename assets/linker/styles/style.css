@@ -1,6 +1,7 @@
 body {
   height:100%;
   margin:0;
+  color:#F3F4F3;
 }
 .container {
   float:left;
@@ -10,18 +11,19 @@ body {
 .column {
   float:left;
 }
-.span4 {
+.item {
   width: 25%;
 }
-.span8 {
+.itemw2 {
   width: 50%;
 }
 .footer {
   top:400px;
 }
-.jumbotron {
+.mosaicbox {
   padding: 10px;
   background-color: rgba(39, 50, 63, 0.9);
   margin: 10px;
   min-height:200px;
+  border-radius:0px !important;
 }
