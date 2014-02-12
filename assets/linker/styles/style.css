@@ -59,7 +59,11 @@ h1, .h1, h2, .h2, h3, .h3 {
 
 body {
   color:#F3F4F3;
-  background: rgba(39, 50, 63, 0.9) url('/images/ethereumsplash-bg-web01-min.jpg') no-repeat fixed center; 
+  background: rgba(39, 50, 63, 0.9) url('/images/ethereumsplash-bg-web01-min.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 /*
 .footer {
