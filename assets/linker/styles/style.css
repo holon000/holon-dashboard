@@ -1,5 +1,27 @@
+body {
+  height:100%;
+  margin:0;
+}
 .container {
-  width:25%;
   float:left;
-  color:red;
-  }
+  width: 100%;
+  margin:0 auto;
+}
+.column {
+  float:left;
+}
+.span4 {
+  width: 25%;
+}
+.span6 {
+  width: 50%;
+}
+.span8 {
+  width: 75%;
+}
+.footer {
+  top:400px;
+}
+.jumbotron {
+  padding: 10px;
+}
