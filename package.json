@@ -17,7 +17,7 @@
         "debug": "node debug app.js"
     },
     "main": "app.js",
-    "repository": "",
-    "author": "",
-    "license": ""
+    "repository": "https://github.com/holon000/holon-dashboard",
+    "author": "holon000",
+    "license": "MIT"
 }
