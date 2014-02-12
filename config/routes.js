@@ -32,14 +32,7 @@ module.exports.routes = {
   // located at `views/home/index.ejs`
   // 
   // (This would also work if you had a file at: `/views/home.ejs`)
-  '/': {
-    view: 'home/index'
-  },
-  '/allholons': 'HolonController.all',
-  '/jadetest': {
-    view: 'home/jadetest1'
-  },
-  '/dashboard': 'DashboardController.index'
+  '/': 'DashboardController.index'
 /*
 
   // Let's say you're building an email client, like Gmail
