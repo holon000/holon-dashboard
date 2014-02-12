@@ -3,19 +3,37 @@ doctype html
 html(lang="en")
   head
     title= pageTitle
-    script(type='text/javascript').
-      if (foo) {
-         bar(1 + 5)
-      }
+     // STYLES
+     link(rel="stylesheet", href="/linker/styles/style.css")
+     // STYLES END
   body
-    h1 Jade - node template engine
-    #container.col
-      if youAreUsingJade
-        p You are amazing
-      else
-        p Get on it!
+      
+    h1 Switzerland
+    #container.col1 
       p.
-        Jade is a terse and simple
-        templating language with a
-        strong focus on performance
-        and powerful features.
+        Welcome to
+        holon ground zero
+        
+  block content
+  div.container.column1
+    div.jumbotron
+      h1= title
+      p Welcome to #{title}
+
+  block content
+  div.container.column2
+    div.jumbotron
+      h1= title
+      p Welcome to #{title}
+      
+  block content
+  div.container.column3
+    div.jumbotron
+      h1= title
+      p Welcome to #{title}
+
+  block content
+  div.container.column4
+    div.jumbotron
+      h1= title
+      p Welcome to #{title}
