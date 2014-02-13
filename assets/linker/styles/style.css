@@ -6,7 +6,7 @@
 
 body { 
   background: rgba(39, 50, 63, 0.9) url('/images/ftw.jpg') no-repeat center center fixed; 
-  color:#aaa;
+  color:#f3f4f3;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
