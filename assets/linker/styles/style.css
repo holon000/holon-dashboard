@@ -27,7 +27,7 @@ h4, .h4, h5, .h5, h6, .h6 {
 }
 .equalmargin {
   margin:0 auto;
-  max-width: 1020px;
+  max-width: 1000px;
 }
 
 /* clearfix */
