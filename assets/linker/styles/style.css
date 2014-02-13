@@ -5,7 +5,7 @@
 }
 
 body { 
-  background: rgba(39, 50, 63, 0.9) url('/images/dark.jpg') no-repeat center center fixed; 
+  background: rgba(39, 50, 63, 0.9) url('/images/ftw.jpg') no-repeat center center fixed; 
   color:#aaa;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -75,6 +75,8 @@ h4, .h4, h5, .h5, h6, .h6 {
 .item.w6 { width:  325px; }
 .item.h8 { height: 465px; }
 .item.w8 { width:  465px; }
+.item.h12 { height: 705px; }
+.item.w12 { width:  705px; }
 .item.h16 { height: 950px; }
 .item.w16 { width:  950px; }
 
