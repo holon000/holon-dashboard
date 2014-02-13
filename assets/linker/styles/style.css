@@ -5,8 +5,12 @@
 }
 
 body { 
+  color:#F3F4F3;
+  background: rgba(39, 50, 63, 0.9) url('/images/dark.jpg') no-repeat center center fixed; 
+/*=======
   color:#888;
   background: rgba(39, 50, 63, 0.9) url('/images/skylight.jpg') no-repeat center center fixed; 
+>>>>>>> 76447bd705f2ee904b9813be65c47c909cd76f6c*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -28,6 +32,10 @@ h1, .h1, h2, .h2, h3, .h3 {
 
 h4, .h4, h5, .h5, h6, .h6 {
   margin:0;
+}
+
+.zoom {
+  background-size: 125%;
 }
 
 .packery {
