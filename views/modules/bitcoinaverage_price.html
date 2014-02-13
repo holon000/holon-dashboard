@@ -1,0 +1,17 @@
+<script>
+
+$.ajax({
+  url : 'https://api.bitcoinaverage.com/ticker/global/all',
+  dataType : "json",
+  success: function(data) {
+    $('.ba-price-usd').text(data.USD.last)
+  }
+});
+
+</script>
+<div class="text-center">
+  <h1><i class="fa fa-usd"></i> <span class="ba-price-usd"></span></h1>
+  <small>
+  by <a href="https://bitcoinaverage.com">BitcoinAverage</a>
+  </small>
+</div>
