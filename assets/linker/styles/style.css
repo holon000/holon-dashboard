@@ -5,7 +5,7 @@
 }
 
 body { 
-  color:#F3F4F3;
+  color:#888;
   background: rgba(39, 50, 63, 0.9) url('/images/skylight.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -15,7 +15,6 @@ body {
  }
 
 h1 {
-  font-weight:bold;
   font-size:34px;
 }
 
