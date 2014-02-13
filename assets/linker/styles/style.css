@@ -95,4 +95,30 @@ img {
   max-height: 100%;
   max-width: 100%;
 }
-
+.parallax {
+  position: absolute;
+  width: 100%;
+  height: 1090px;
+  overflow: hidden;
+  left: 0;
+}
+.water {
+  position: absolute;
+  width: 100%;
+  height: 1090px;
+  left:0;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.water-layer1 {
+  background-image: url(/images/water-layer-1.png);
+}
+.water-layer2 {
+  background-image: url(/images/water-layer-2.png);
+}
+.water-layer3 {
+  background-image: url(/images/water-layer-3.png);
+}
+.water-layer4 {
+  background-image: url(/images/water-layer-4.png);
+}
