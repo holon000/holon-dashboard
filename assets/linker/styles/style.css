@@ -67,6 +67,8 @@ h4, .h4, h5, .h5, h6, .h6 {
 .item.h2 { height: 100px; }
 .item.h4 { height: 225px; }
 .item.w4 { width:  225px; }
+.item.h6 { height:  325px; }
+.item.w6 { width:  325px; }
 .item.h8 { height: 465px; }
 .item.w8 { width:  465px; }
 .item.h16 { height: 950px; }
