@@ -4,11 +4,23 @@
           box-sizing: border-box;
 }
 
-body { font-family: sans-serif; }
+body { 
+  color:#F3F4F3;
+  background: rgba(39, 50, 63, 0.9) url('/images/ethereumsplash-bg-web01-min.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: sans-serif;
+ }
 
 h1 {
   font-weight:bold;
-  font-size:14px;
+  font-size:34px;
+}
+
+.centering {
+  text-align:center;
 }
 
 h1, .h1, h2, .h2, h3, .h3 {
@@ -71,20 +83,8 @@ h4, .h4, h5, .h5, h6, .h6 {
   width: 100%;
 }
 
-body {
-  color:#F3F4F3;
-  background: rgba(39, 50, 63, 0.9) url('/images/ethereumsplash-bg-web01-min.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+img {
+  max-height: 100%;
+  max-width: 100%;
 }
-/*
-.footer {
-  top:400px;
-}
-.mosaicbox {
-  background-color: rgba(39, 50, 63, 0.9);
-  border-radius:0px !important;
-}
-*/
+
