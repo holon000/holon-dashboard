@@ -1,0 +1,22 @@
+<script>
+$.get('/holon/1')
+$.ajax({
+    type: "GET",
+    contentType: "application/json; charset=utf-8",
+    url: "/holon/1",
+    success: function (data) {
+        $('#holon-location').text(data.location)
+        $.ajax({
+          url : 'http://api.openweathermap.org/data/2.5/weather?q='+data.location,
+          dataType : "jsonp",
+          success: function(data) {
+            $('#holon-location').append('<img src="http://openweathermap.org/img/w/'+data.weather[0].icon+'.png">')
+          }
+        });
+    }
+});
+
+
+</script>
+
+<span id="holon-location"></span>
