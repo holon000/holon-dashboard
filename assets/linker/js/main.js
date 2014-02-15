@@ -3,10 +3,11 @@
 
 docReady( function() {
   var container = document.querySelector('#widgets.packery');
-
+  var stampElem = document.querySelector('.stamp');
   var pckry = new Packery( container, {
     columnWidth: 24,
-    rowHeight: 24
+    rowHeight: 24,
+    stamp: ".stamp"
   });
 
   var itemElems = pckry.getItemElements();
@@ -21,12 +22,23 @@ docReady( function() {
   }
 
   eventie.bind( container, 'click', function( event ) {
-    // don't proceed if item was not clicked on
+    // don't proceed if item was not clicked on or is supposed to be fixed size
     var target = event.target;
     if ( !classie.has( target, 'item') || classie.has( target, 'fixedsize')) {
       return;
     }
 
+    // get stampElem window
+    var isStamped = classie.has(target, 'stamped');
+    if (isStamped) {
+      pckry.unstamp(stampElem);
+    } else {
+      pckry.stamp(stampElem);
+    }
+    pckry.layout();
+    $(target).toggleClass('stamped')
+
+/*
     var isGigante = classie.has( target, 'gigante' );
     classie.toggleClass( target, 'gigante' );
 
@@ -37,6 +49,8 @@ docReady( function() {
       // if expanding, fit it
       pckry.fit( target );
     }
+    */
+    
   });
 });
 

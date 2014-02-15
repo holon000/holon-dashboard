@@ -113,7 +113,6 @@ img {
   background-image: url(/images/water-layer-4.png);
 } */
 
-
 .draggable {
   border-style: dashed;
 }
@@ -122,3 +121,15 @@ img {
   border-width: 4px;
 }
 
+.stamp {
+  position: absolute;
+  left: 10%;
+  top: 150px;
+  width: 80%;
+  height: 100px;
+  background: red;
+}
+
+.stamped {
+  background-color: blue;
+}
