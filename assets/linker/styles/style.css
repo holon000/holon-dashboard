@@ -122,3 +122,7 @@ img {
   border-width: 4px;
 }
 
+.movehandle {
+  position:fixed;
+  top:1px;
+}
