@@ -28,17 +28,21 @@ docReady( function() {
       return;
     }
 
+    /*
     // get stampElem window
     var isStamped = classie.has(target, 'stamped');
+    $(target).toggleClass('stamped');
+    //$(target).toggleClass('hidden');
+    classie.toggle( stampElem, 'hidden');
     if (isStamped) {
       pckry.unstamp(stampElem);
     } else {
       pckry.stamp(stampElem);
     }
-    pckry.layout();
-    $(target).toggleClass('stamped')
+    //pckry.layout();
+    */
 
-/*
+
     var isGigante = classie.has( target, 'gigante' );
     classie.toggleClass( target, 'gigante' );
 
@@ -49,7 +53,7 @@ docReady( function() {
       // if expanding, fit it
       pckry.fit( target );
     }
-    */
+    
     
   });
 });

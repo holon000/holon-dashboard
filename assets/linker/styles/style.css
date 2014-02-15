@@ -124,9 +124,9 @@ img {
 .stamp {
   position: absolute;
   left: 10%;
-  top: 150px;
+  top: 240px;
   width: 80%;
-  height: 100px;
+  height: 200px;
   background: red;
 }
 
