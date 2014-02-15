@@ -14,7 +14,7 @@ docReady( function() {
     var elem = itemElems[i];
     if ( elem.classList.contains('draggable') ) {
       // make element draggable with Draggabilly
-      var draggie = new Draggabilly( elem );
+      var draggie = new Draggabilly( elem , {handle: '.movehandle'});
       // bind Draggabilly events to Packery
       pckry.bindDraggabillyEvents( draggie );
     }
