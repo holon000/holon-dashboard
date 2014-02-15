@@ -23,8 +23,11 @@ docReady( function() {
 
   }
 
+  $('.morecontent').append('<div class="expandhandle"></div>');
+  $('.draggable').append('<div class="movehandle"></div>');
 
-  //var expands = document.querySelector('.togglestamp > img');
+
+  //var expands = document.querySelector('.expandhandle > img');
   /*
   function expanding(event){
     console.log( event.type + ' just happened on #' + event.target.id );
@@ -43,7 +46,7 @@ docReady( function() {
   }
   eventie.bind( expands, 'click', expanding);
 */
-  var elem = document.querySelector('.togglestamp');
+  var elem = document.querySelector('.expandhandle');
   function onElemClick( event ) {
     console.log(event)
     console.log( event.type + ' just happened on #' + event.target.id );
