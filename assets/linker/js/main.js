@@ -12,7 +12,7 @@ docReady( function() {
   var itemElems = pckry.getItemElements();
   for ( var i=0, len = itemElems.length; i < len; i++ ) {
     var elem = itemElems[i];
-    if (elem.classList.contains('draggable')) {
+    if ( elem.classList.contains('draggable') ) {
       // make element draggable with Draggabilly
       var draggie = new Draggabilly( elem );
       // bind Draggabilly events to Packery
@@ -23,7 +23,7 @@ docReady( function() {
   eventie.bind( container, 'click', function( event ) {
     // don't proceed if item was not clicked on
     var target = event.target;
-    if ( !classie.has( target, 'item' ) ) {
+    if ( !classie.has( target, 'item') || classie.has( target, 'fixedsize')) {
       return;
     }
 

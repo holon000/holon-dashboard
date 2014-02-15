@@ -56,7 +56,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .item:hover.draggable {
-  border-color: white;
   cursor: move;
 }
 
@@ -113,7 +112,6 @@ img {
   background-image: url(/images/water-layer-4.png);
 } */
 
-<<<<<<< HEAD
 .zone1 {
   float: left;
   text-align: left;
@@ -139,3 +137,8 @@ img {
 .draggable {
   border-style: dashed;
 }
+
+.fixedsize {
+  border-width: 4px;
+}
+
