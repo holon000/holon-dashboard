@@ -13,22 +13,53 @@ docReady( function() {
   var itemElems = pckry.getItemElements();
   for ( var i=0, len = itemElems.length; i < len; i++ ) {
     var elem = itemElems[i];
+
     if ( elem.classList.contains('draggable') ) {
       // make element draggable with Draggabilly
       var draggie = new Draggabilly( elem , {handle: '.movehandle'});
       // bind Draggabilly events to Packery
       pckry.bindDraggabillyEvents( draggie );
     }
+
   }
 
+
+  //var expands = document.querySelector('.togglestamp > img');
+  /*
+  function expanding(event){
+    console.log( event.type + ' just happened on #' + event.target.id );
+    var isGigante = classie.has( elem, 'gigante' );
+    classie.toggleClass( elem, 'gigante' );
+
+    if ( isGigante ) {
+      // if shrinking, just layout
+      console.log(pckry);
+      pckry.layout();
+    } else {
+      // if expanding, fit it
+      console.log(pckry);
+      pckry.fit( elem );
+    }
+  }
+  eventie.bind( expands, 'click', expanding);
+*/
+  var elem = document.querySelector('.togglestamp');
+  function onElemClick( event ) {
+    console.log(event)
+    console.log( event.type + ' just happened on #' + event.target.id );
+    // -> click just happened on #my-elem
+  }
+
+  eventie.bind( elem, 'click', onElemClick );
+
+
+/*
   eventie.bind( container, 'click', function( event ) {
     // don't proceed if item was not clicked on or is supposed to be fixed size
     var target = event.target;
     if ( !classie.has( target, 'item') || !classie.has( target, 'morecontent')) {
       return;
     }
-
-    /*
     // get stampElem window
     var isStamped = classie.has(target, 'stamped');
     $(target).toggleClass('stamped');
@@ -40,22 +71,8 @@ docReady( function() {
       pckry.stamp(stampElem);
     }
     //pckry.layout();
-    */
-
-
-    var isGigante = classie.has( target, 'gigante' );
-    classie.toggleClass( target, 'gigante' );
-
-    if ( isGigante ) {
-      // if shrinking, just layout
-      pckry.layout();
-    } else {
-      // if expanding, fit it
-      pckry.fit( target );
-    }
-    
-    
   });
+  */
 });
 
 

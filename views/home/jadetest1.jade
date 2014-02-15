@@ -24,22 +24,25 @@ block content
           h1 Sign up
    
         div.item.w4.h2.text-center.draggable.morecontent
-          span.movehandle X
+          div.togglestamp
+            img(src='../images/open-button.png')
+          div.movehandle 
+            img(src='../images/fix-button.png')
           p
           h1 Sign in
 
-        div.item.w4.h4.draggable
-          div.zone1
+        div.item.w4.h4.draggable.fixedsize
+          div.text-left.pull-left.col-xs-6.nopadding
             p
             h2 Zug
-          div.text-left.pull-left.col-xs-5
+          div.text-left.pull-left.col-xs-5.nopadding
             p
             h3 +1C
             h4 -3
-          div.text-left.pull-left.col-xs-6
+          div.text-left.pull-left.col-xs-6.nopadding
             p
             i.fa.fa-cloud.fa-5x
-          div.text-center.pull-left.col-xs-12
+          div.text-center.pull-left.col-xs-12.nopadding
             h3 15:08 GMT+1
         
         div.item.w8.h2.draggable
