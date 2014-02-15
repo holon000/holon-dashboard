@@ -24,7 +24,7 @@ docReady( function() {
   eventie.bind( container, 'click', function( event ) {
     // don't proceed if item was not clicked on or is supposed to be fixed size
     var target = event.target;
-    if ( !classie.has( target, 'item') || classie.has( target, 'fixedsize')) {
+    if ( !classie.has( target, 'item') || !classie.has( target, 'morecontent')) {
       return;
     }
 
