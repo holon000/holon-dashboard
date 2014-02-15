@@ -123,5 +123,13 @@ img {
 }
 
 .movehandle {
-  position:fixed;
+    background-color: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 0;
+    color: #EEEEEE;
+    float: right;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    vertical-align: top;
 }
