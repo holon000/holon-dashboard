@@ -11,19 +11,20 @@ block content
 
       div#widgets.packery.fluid.has-padding.has-stamp
 
-        div.stamp
+        div.stamp.hidden
           p This is stamp content
 
         div.item.w4.h4
           include ../modules/holon_data.html
           img(src='../images/mock-07.png')
 
-        div.item.w4.h2.text-center.draggable
+        div.item.w4.h2.text-center.draggable.morecontent
+          span.movehandle X
           p
           h1 Sign up
    
-        div.item.w4.h2.text-center.draggable
-          button.movehandle X
+        div.item.w4.h2.text-center.draggable.morecontent
+          span.movehandle X
           p
           h1 Sign in
 
@@ -50,7 +51,7 @@ block content
         div.item.w8.h6.draggable
           img(src='../images/mock-14.png')
 
-        div.item.w4.h2.draggable
+        div.item.w4.h2.draggable.morecontent
           include ../modules/bitcoinaverage_price.html
 
         div.item.w4.h6.draggable
@@ -68,6 +69,6 @@ block content
         div.item.w4.h2.draggable
           img(src='../images/mock-10.png')
 
-        div.item.w8.h8.draggable.morecontent
+        div.item.w8.h8.draggable
           p #{brand}
 
