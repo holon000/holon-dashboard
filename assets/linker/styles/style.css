@@ -5,7 +5,7 @@
 }
 
 body { 
-  background: rgba(39, 50, 63, 0.9) url('/images/underwater.jpeg') no-repeat center center fixed; 
+  background: rgba(39, 50, 63, 0.9) url('/images/ftw.jpg') no-repeat center center fixed; 
   color:#f3f4f3;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -102,6 +102,7 @@ img {
   background-repeat: no-repeat;
   background-position: top center;
 }
+
 /* .water-layer2 {
   background-image: url(/images/water-layer-2.png);
 }
@@ -112,27 +113,6 @@ img {
   background-image: url(/images/water-layer-4.png);
 } */
 
-.zone1 {
-  float: left;
-  text-align: left;
-  margin-left:5px;
-  width: 50%;
-}
-.zone2 {
-  float: left;
-  text-align: center;
-  width: 47%;
-}
-.zone3 {
-  float: left;
-  text-align: right;
-  width: 50%;
-}
-.zone4 {
-  float: left;
-  text-align: center;
-  width: 100%;
-}
 
 .draggable {
   border-style: dashed;
