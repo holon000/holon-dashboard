@@ -133,3 +133,8 @@ img {
   text-align: center;
   width: 100%;
 }
+
+
+.draggable {
+  border-style: dashed;
+}
