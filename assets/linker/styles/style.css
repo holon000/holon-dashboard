@@ -113,29 +113,6 @@ img {
   background-image: url(/images/water-layer-4.png);
 } */
 
-<<<<<<< HEAD
-.zone1 {
-  float: left;
-  text-align: left;
-  margin-left:5px;
-  width: 50%;
-}
-.zone2 {
-  float: left;
-  text-align: center;
-  width: 47%;
-}
-.zone3 {
-  float: left;
-  text-align: right;
-  width: 50%;
-}
-.zone4 {
-  float: left;
-  text-align: center;
-  width: 100%;
-}
-
 .draggable {
   border-style: dashed;
 }
