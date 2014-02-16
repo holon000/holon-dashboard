@@ -108,20 +108,20 @@ Uh0=
 -----END PGP PUBLIC KEY BLOCK-----
 </textarea>
 <textarea id="user-message">Hello Charles!</textarea>
-<button id="btn-sign" type="button">Sign!</button>
+<button id="btn-sign" type="button" disabled="disabled">Sign!</button>
 <button id="btn-encrypt" type="button">Encrypt!</button>
-<button id="btn-decrypt" type="button">Decrypt!</button>
+<button id="btn-decrypt" type="button" disabled="disabled">Decrypt!</button>
 <textarea id="result-message">(Result)</textarea>
 <script>
 $(document).ready(function(){
-  var signMessage = function() {
+  var encryptMessage = function() {
     var key = $('#key-input').val();
     var userMessage = $('#user-message').val();
     var publicKey = openpgp.key.readArmored(key);
     var pgpMessage = openpgp.encryptMessage(publicKey.keys, userMessage);
     return pgpMessage;
   }
-  var encryptMessage = function() {
+  var signMessage = function() {
     var key = $('#key-input').val();
     var userMessage = $('#user-message').val();
     var privateKey = openpgp.key.readArmored(key);
