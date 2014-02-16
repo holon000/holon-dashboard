@@ -20,8 +20,8 @@ npm -g install sails
 cd ~
 git clone git@github.com:holon000/holon-dashboard.git
 cd holon-dashboard
-git submodules init
-npm install -d
+git submodule init
+sudo npm install -d
 sails lift
 ```
 
