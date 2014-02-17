@@ -136,6 +136,7 @@ img {
 
 .movehandle {
   background-color: transparent;
+  background-image: url('/images/fix-button.png');
   border-radius: 0;
   color: #EEEEEE;
   float: right;
@@ -145,10 +146,12 @@ img {
   vertical-align: top;
   font-size:12pt;
   width:20px;
+  height:20px;
 }
 
 .expandhandle {
   background-color: transparent;
+  background-image: url('../images/open-button.png');
   border-radius: 0;
   color: #EEEEEE;
   float: right;
@@ -158,6 +161,7 @@ img {
   vertical-align: top;
   font-size:12pt;
   width:20px;
+  height:20px;
 }
 
 .nopadding {
