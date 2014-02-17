@@ -151,7 +151,7 @@ img {
 
 .expandhandle {
   background-color: transparent;
-  background-image: url('../images/open-button.png');
+  background-image: url('/images/open-button.png');
   border-radius: 0;
   color: #EEEEEE;
   float: right;
