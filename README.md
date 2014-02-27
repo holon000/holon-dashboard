@@ -21,6 +21,7 @@ cd ~
 git clone git@github.com:holon000/holon-dashboard.git
 cd holon-dashboard
 git submodule init
+git submodule update
 npm install
 sails lift
 ```
